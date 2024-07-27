@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+
+    margin: 0;
+    padding: 0;
+}
+body{
+
+background-color: rgb(2, 2, 16);
+color: white;
+font-family: "Poppins", sans-serif;
+background-image: url(img/stback.avif);
+}
+
+
+
+nav{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 95px;
+    background-color: rgb(6, 6, 76);
+
+}
+nav ul{
+
+    justify-content: center;
+    display: flex;
+}
+
+nav ul li{
+
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+
+  color: rgb(46, 46, 232);
+  font-size: 1.02rem;
+}
+.left{
+
+    font-size: 1.5rem;
+}
+.first{
+
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0;
+}
+
+.first > div{
+
+    width: 40%;
+}
+.leftsec{
+
+   /* background-color: red; */
+   font-size: 2rem;
+   font-weight: bolder;
+   margin: 10%;
+    
+}
+.rightsec img{
+
+    /* background-color: red; */
+
+    /* border: 2px solid blue; */
+    width: 400px;  /* Set the desired width */
+    height: auto; /* Set the desired height */
+    border-radius: 50%;
+    object-fit: cover; 
+     left: 30%;
+ }
+
+ .nc{
+
+    color: rgb(18, 18, 71);
+ }
+ #element{
+
+    color: rgb(28, 10, 74);
+ }
+
+ .about .first{
+
+
+    /* display: flex;
+    justify-content: space-between; */
+    /* margin: 23px 0; */
+ }
+
+ .about .first .h1 {
+
+   
+    color: rgb(4, 4, 74);
+    font-size: 2rem;
+    font-weight: bolder;
+    margin: 10% ;
+    
+     
+    
+
+    
+ }
+
+ .about .first .h2 {
+
+/* margin: 20px 0px; */
+/* left: 50%; */
+margin-right: 17%;
+margin-top: 3%;
+animation: osama 2s ease-in-out forwards;
+ }
+
+ .certificates .first .h1 {
+
+   
+    color: rgb(4, 4, 74);
+    font-size: 2rem;
+    font-weight: bolder;
+    margin: 10% ;
+    /* margin-top: 5%; */
+     
+    
+
+    
+ }
+ 
+ .certificates .first .h2 {
+
+    /* margin: 20px 0px; */
+    /* left: 50%; */
+    margin-right: 15%;
+    margin-top: 3%;
+    font-size: 1.5rem;
+
+     }
+
+     .certificates .first .h2 ul span{
+
+
+
+        color: rgb(7, 7, 53);
+        font-weight: bolder;
+     }
+
+     .certificates .opa1{
+
+        animation: osama 2s ease-in-out forwards;
+
+      }
+
+     .certificates .sktr{
+      
+         /* transition: transform 3s ease-in-out 4s; */
+
+         transform: translatex(-400px);
+          
+
+      }
+
+
+     .education .first .h1 {
+
+   
+        color: rgb(4, 4, 74);
+        font-size: 2rem;
+        font-weight: bolder;
+        margin: 10% ;
+        /* margin-top: 5%; */
+         
+        
+    
+        
+     }
+     
+     .education .first .h2 {
+    
+        /* margin: 20px 0px; */
+        /* left: 50%; */
+        margin-right: 15%;
+        margin-top: 3%;
+        font-size: 1.5rem;
+    
+         }
+    
+         .education .first .h2 ul span{
+    
+    
+    
+            color: rgb(7, 7, 53);
+            font-weight: bolder;
+         }
+
+         .education .opa1{
+
+            animation: osama 2s ease-in-out forwards;
+    
+          }
+    
+         .education .sktr{
+          
+             /* transition: transform 3s ease-in-out 4s; */
+    
+             transform: translatex(-400px);
+              
+    
+          }
+
+         .projects .first .h1 {
+
+   
+            color: rgb(4, 4, 74);
+            font-size: 2rem;
+            font-weight: bolder;
+            margin: 10% ;
+            /* margin-top: 5%; */
+             
+            
+        
+            
+         }
+
+         .projects .first .h2 {
+    
+            /* margin: 20px 0px; */
+            /* left: 50%; */
+            margin-right: 1%;
+            margin-top: 3%;
+            font-size: 1.2rem;
+        
+             }
+             .projects .first .h2 .s{
+        
+        
+                 font-size: 1.6rem;
+                color: rgb(7, 7, 53);
+                font-weight: bolder;
+             }
+             .projects .first .h2 .s1{
+        
+        
+        
+                color: rgb(7, 7, 53);
+                font-weight: bolder;
+             }
+
+             .projects .first .u{
+
+                /* display: none; */
+                animation: osama2 2s ease-in-out forwards ;
+                /* transform: translatey(1000px); */
+
+             }
+
+             .Skills .first .h1 {
+
+   
+                color: rgb(4, 4, 74);
+                font-size: 2rem;
+                font-weight: bolder;
+                margin: 10% ;
+                /* margin-top: 5%; */
+                 
+                
+            
+                
+             }
+             
+             .Skills .first .h2 {
+            
+                /* margin: 20px 0px; */
+                /* left: 50%; */
+                margin-right: 15%;
+                margin-top: 3%;
+                font-size: 1.5rem;
+               
+                
+            
+                 }
+            
+                 .Skills .first .h2 ul span{
+            
+            
+            
+                    color: rgb(7, 7, 53);
+                    font-weight: bolder;
+                 }
+            
+                 .Skills .opa1{
+
+                   animation: osama 2s ease-in-out forwards;
+
+                 }
+
+                .Skills .sktr{
+                 
+                    /* transition: transform 3s ease-in-out 4s; */
+
+                    transform: translatex(-400px);
+                     
+
+                 }
+
+                 @keyframes osama {
+
+                    from{
+                         
+                       opacity: 0;
+
+
+                    }to{
+                         opacity: 1;
+                        transform:translateX(2px);
+                    }
+                    
+                 }
+
+                 @keyframes osama2 {
+
+                    from{
+                         
+                        opacity: 0;
+                /* animation: osama2 2s ease-in-out forwards; */
+                transform: translatey(1000px);
+ 
+                     }to{
+                        opacity: 1;
+                        /* animation: osama2 2s ease-in-out forwards; */
+                        transform: translatey(0px);
+                     }
+                    
+                 }

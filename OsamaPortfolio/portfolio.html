@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mir Osama Ali Portfolio</title>
+    <link rel="stylesheet" href="port.css">
+</head>
+<body>
+<header>
+    <nav>
+        <div class="left">Mir Osama Ali</div>
+        <div class="right">
+            <ul>
+                <li><a href="#" id="nextLink1">Home</a></li>
+                <li><a href="#" id="nextLink2">About</a></li>
+                <li><a href="#" id="nextLink3">Certificates</a></li>
+                <li><a href="#" id="nextLink4">Education</a></li>
+                <li><a href="#" id="nextLink5">Projects</a></li>
+                <li><a href="#" id="nextLink6">Skills</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<main id="content">
+    <section class="first">
+        <div class="leftsec">
+            <div>
+                Hi, My Name is
+                <span class="nc"> Mir Osama Ali</span>
+            </div>
+            <div>
+                and I am a <span id="element"></span>
+            </div>
+        </div>
+        <div class="rightsec">
+            <img src="img/osi.jpg" alt="">
+        </div>
+    </section>
+</main>
+
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script src="port.js"></script>
+<script>
+    var typed = new Typed('#element', {
+        strings: ['Student', 'AI Enthusiast', 'SWE Fellow', 'Web Developer'],
+        typeSpeed: 50,
+    });
+</script>
+</body>
+</html>
